@@ -1,0 +1,18 @@
+MusicPlayer/
+├── assets/
+│   └── songs/                 # Archivos de música .mp3
+├── components/                # Componentes reutilizables
+├── database/
+│   └── Database.js           # Configuración de SQLite
+├── screens/
+│   ├── LibraryScreen.js      # Biblioteca de canciones
+│   ├── PlayerScreen.js       # Reproductor
+│   ├── AddMusicScreen.js     # Agregar música
+│   ├── PlaylistsScreen.js    # Listas de reproducción
+│   └── PlaylistDetailScreen.js # Detalles de playlist
+├── services/
+│   ├── FileManager.js        # Gestión de archivos
+│   └── PlaybackService.js    # Servicio de reproducción
+├── App.js                    # Componente principal
+├── app.json                  # Configuración de Expo
+└── package.json
